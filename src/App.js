@@ -10,8 +10,8 @@ const App = () => {
     <BrowserRouter>
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/products/:id" element={<SingleProduct  />} />
+        <Route path="card-with-dynamic-routes/" element={<Home />} />
+        <Route path="card-with-dynamic-routes/products/:id" element={<SingleProduct  />} />
       </Routes>
     </BrowserRouter>
   )
