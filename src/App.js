@@ -10,7 +10,7 @@ const App = () => {
     <BrowserRouter>
       <ScrollToTop />
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/products/:id" element={<SingleProduct  />} />
       </Routes>
     </BrowserRouter>
