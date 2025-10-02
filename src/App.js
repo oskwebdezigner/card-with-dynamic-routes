@@ -7,11 +7,11 @@ import ScrollToTop from './Components/ScrollTop/ScrollTop';
 const App = () => {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='card-with-dynamic-routes'>
       <ScrollToTop />
       <Routes>
-        <Route path="card-with-dynamic-routes/" element={<Home />} />
-        <Route path="card-with-dynamic-routes/products/:id" element={<SingleProduct  />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/products/:id" element={<SingleProduct  />} />
       </Routes>
     </BrowserRouter>
   )
